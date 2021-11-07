@@ -89,7 +89,7 @@ pset_red(70, 70)
 
 -- metatable.lua
 -- v をテーブルとして初期化する
-v = {name="feifei", age=28, sex="male"}
+v = {name="tanaka", age=28, sex="male"}
 
 -- メタテーブルを追加する
 setmetatable(v, {memo1="test1", memo2="test2"})
@@ -98,7 +98,7 @@ setmetatable(v, {memo1="test1", memo2="test2"})
 print "*** values"
 
 for key, val in pairs(v) do
-   print(key, val)
+    print(key, val)
 end
 
 -- meta テーブルを取得して列挙する
@@ -106,5 +106,5 @@ print "*** metatables"
 meta = getmetatable(v)
 
 for key, val in pairs(meta) do
-   print(key, val)
+    print(key, val)
 end
