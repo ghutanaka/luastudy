@@ -89,7 +89,7 @@ pset_red(70, 70)
 
 -- metatable.lua
 -- v をテーブルとして初期化する
-v = {name="tanaka.takeshi", age=28, sex="male"}
+v = {name="tanaka takeshi", age=28, sex="male"}
 
 -- メタテーブルを追加する
 setmetatable(v, {memo1="test1", memo2="test2"})
